@@ -16,7 +16,7 @@ window.onload = function() {
       for (let j = 0; j < noun.length; j++) {
         for (let y = 0; y < domain.length; y++) {
           let list = document.createElement("li");
-          list.className = "text-dark";
+          list.className = "text-success";
           list.innerText = `${pronoun[i]}${adjective[x]}${noun[j]}${domain[y]}`;
           document.querySelector("#domains").appendChild(list);
         }
